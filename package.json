@@ -13,7 +13,7 @@
   "dependencies": {
     "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
     "eslint": "^6.1.0",
-    "truffle-plugin-verify": "^0.3.1",
+    "truffle-plugin-verify": "github:katat/truffle-plugin-verify",
     "yargs": "^13.3.0"
   }
 }
