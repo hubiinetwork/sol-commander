@@ -1,0 +1,19 @@
+{
+  "name": "sol-commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
+    "eslint": "^6.1.0",
+    "truffle-plugin-verify": "^0.3.1",
+    "yargs": "^13.3.0"
+  }
+}
