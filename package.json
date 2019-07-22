@@ -1,14 +1,14 @@
 {
   "name": "sol-commander",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI for verifying sol source codes on Etherscan",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix"
   },
-  "author": "",
+  "author": "hubii",
   "license": "ISC",
   "bin": {
     "sol-commander": "main.js"
