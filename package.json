@@ -10,6 +10,9 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "sol-commander": "main.js"
+  },
   "dependencies": {
     "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
     "eslint": "^6.1.0",
