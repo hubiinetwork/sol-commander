@@ -21,7 +21,7 @@ module.exports = {
             choices: ['1', '3']
         });
         yargs.option('path', {
-            desc: 'The path to the truffle structured project. It should contains the "contracts" folder for the sol source files, and "build/contracts" folder for the compiled ABI files.',
+            desc: 'The path to the truffle structured project. It should contain the "contracts" folder for the sol source files, and "build/contracts" folder for the compiled ABI files.',
             default: false,
             type: 'string'
         });
