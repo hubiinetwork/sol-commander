@@ -18,6 +18,7 @@ module.exports = {
         yargs.option('network_id', {
             desc: 'The ID of the network, on which the verification should run. "1" for mainnet. "3" for ropsten.',
             default: '1',
+            type: 'string',
             choices: ['1', '3']
         });
         yargs.option('path', {
