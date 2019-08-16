@@ -16,7 +16,7 @@
   "dependencies": {
     "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
     "eslint": "^6.1.0",
-    "truffle-plugin-verify": "github:katat/truffle-plugin-verify",
+    "truffle-plugin-verify": "0.3.2",
     "yargs": "^13.3.0"
   }
 }
