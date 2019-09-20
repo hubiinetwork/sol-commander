@@ -1,6 +1,6 @@
 {
   "name": "sol-commander",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI for verifying sol source codes on Etherscan",
   "main": "main.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "@hubiinetwork/eslint-config": "github:hubiinetwork/eslint-config",
     "eslint": "^6.1.0",
-    "truffle-plugin-verify": "0.3.2",
+    "truffle-plugin-verify": "github:hubiinetwork/truffle-plugin-verify",
     "yargs": "^13.3.0"
   }
 }
