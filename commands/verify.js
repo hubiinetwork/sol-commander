@@ -11,6 +11,7 @@ module.exports = {
         yargs.example('verify /PATH/TO/PROJECT/FOLDER --apikey=APIKEYSTRING --network_id=3', 'Verify contracts on mainnet.');
         yargs.example('verify /PATH/TO/PROJECT/FOLDER --apikey=APIKEYSTRING --optimization=true --runs=1', 'Verify contracts using optimization setting with 1 runs.');
         yargs.example('verify /PATH/TO/PROJECT/FOLDER --apikey=APIKEYSTRING --contracts ContractA ContractB', 'Only verify contracts in names of ContractA and Contract B.');
+        yargs.example('verify /PATH/TO/PROJECT/FOLDER --apikey=APIKEYSTRING --contracts ContractA@ADDRESS_OF_CONTRACT_A ContractB', 'Only verify contracts in names of ContractA and Contract B, where the address of ContractA is overridden.');
         yargs.option('apikey', {
             desc: 'The Etherscan API KEY',
             type: 'string'
@@ -37,7 +38,7 @@ module.exports = {
             type: 'number'
         });
         yargs.option('contracts', {
-            desc: 'Only verify a subset of the contracts corresponding to the ABI files under the build/contracts folder. By default, it attempts to verify all the contracts corresponding to the ABI files under the build/contracts folder.',
+            desc: 'Only verify a subset of the contracts corresponding to the ABI files under the build/contracts folder, optionally with explicit address override(s). By default, it attempts to verify all the contracts corresponding to the ABI files under the build/contracts folder.',
             default: [],
             type: 'array'
         });
